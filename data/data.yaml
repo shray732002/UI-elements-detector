@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['breadcrumb', 'button', 'checkbox', 'dropdown', 'form', 'image', 'input field', 'links', 'logo', 'modal', 'navigation dots', 'radio', 'text']
+
+roboflow:
+  workspace: ulkesh
+  project: web-elements-rn0zn
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ulkesh/web-elements-rn0zn/dataset/2
